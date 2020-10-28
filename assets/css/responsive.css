@@ -1,0 +1,100 @@
+/* (for laptops and desktops - screens equal to or greater than 1200px wide) - .lg */
+@media only screen and (min-width: 1200px){}
+
+/* (for small laptops - screens equal to or greater than 992px wide) - .md */
+@media only screen and (min-width: 992px){}
+
+/* (for tablets - screens equal to or greater than 768px wide) - .sm */
+@media only screen and (min-width: 768px){}
+
+/* (for phones - screens less than 768px wide) - .xs */
+@media only screen and (max-width: 768px){
+    body{
+        width: 100vw;
+    }
+    /* hero responsive */
+    .hero-content{
+        padding: 0;
+    }
+    .hero-content h2{
+        line-height: 3.5rem;
+        font-size: 49px;
+    }
+    .contact-btn{
+        width: 100%;
+        margin: 0;
+    }
+    /* hero responsive */
+
+    /* project responsive */
+    .projects-section{
+        width: 100%;
+        background: url(../images/background/project-bg-half.png);
+        background-size: cover;
+    }
+    .project-content{
+        padding: 15px 0;
+    }
+    .project-heading {
+        margin: auto 0px;
+    }
+    .project-heading h3 {
+        font-weight: bold;
+        font-size: 32px;
+        word-spacing: 5px;
+        margin: 50px 0px;
+        padding: 0px 25px 0px;
+        text-align: left;
+    }
+    .completed-project{
+        margin-bottom: 50px;
+    }
+    .project-number{
+        margin: 10px 0;
+        padding-left: 30px;
+    }
+    .p-num{
+        font-size: 60px;
+        margin: 0;
+        padding: 0;
+        font-weight: 500;
+    }
+    .p-com{
+        margin: 0;
+        padding: 0;
+        font-weight: 600;
+        font-size: 12px;
+    }
+    /* project-responsive */
+
+    /* service-responsive */
+    /* service-responsive */
+
+    /* team-responsive */
+    .team-content p {
+        padding: 0px;
+    }
+    .tm-det {
+        margin: 0px;
+    }
+    .team-social-item {
+        font-size: 22px;
+    }
+    .tdm {
+        margin-bottom: 50px;
+    }
+    /* team-responsive */
+
+    /* contact-responsive */
+    .contact-section{
+        height: 100vh;
+    }
+    .contact-content{
+        margin: 30% 0;
+        width: 100vw;
+    }
+    .contact-content p {
+        padding: 0px 0px;
+    }
+    /* contact-responsive */
+}

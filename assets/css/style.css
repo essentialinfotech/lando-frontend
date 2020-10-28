@@ -1,0 +1,384 @@
+*{
+    transition: 0.4s ease;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    width: 100%;
+}
+/* Font Classes */
+.piazzolla{
+    font-family: 'Piazzolla', serif;
+}
+.poppins{
+    font-family: 'Poppins', sans-serif;
+}
+/* Font Classes */
+
+/* Color Classes */
+
+.primary-clr{
+    color: #D2E603;
+}
+.secondary-clr{
+    color: #00170C;
+}
+.third-clr{
+    color: #707070;
+}
+
+/* Header CSS */
+.nav-item {
+    padding: 0 10px;
+}
+.nav-link{
+    font-weight: 400;
+}
+/* Header CSS */
+
+/* Hero CSS */
+.hero-section{
+    padding-top: 114px;
+    /* min-width: 100vw; */
+}
+.hero-content{
+    padding: 0 100px;
+}
+.agency {
+    font-size: 116px;
+    font-weight: 800;
+}
+.agency-title h1{
+    margin-bottom: 0;
+}
+.agency-title h2{
+    margin-top: -20px;
+    padding-top: 0;
+}
+.agency-details{
+    margin-top: 10px;
+}
+.agency-details p{
+    font-weight: 400;
+}
+.contact-btn{
+    border: 2px solid #D2E603;
+    border-radius: 40px;
+    font-size: 24px;
+    text-transform: capitalize;
+    font-weight: 900;
+    padding: 10px 40px;
+    background-color: #D2E603;
+    margin: 0 -15px 0;
+    }
+.contact-btn:hover{
+    background-color: white;
+    border: 2px solid #00170C;
+    color: #00170C;
+}
+.contact-btn:focus{
+    background-color: white;
+    border: 2px solid #00170C;
+    color: #00170C;
+}
+.contact-btn:active{
+    background-color: #D2E603;
+    border: 2px solid #00170C;
+    color: #00170C;
+}
+.hero-social{
+    margin: 60px  0;
+}
+.hero-social-item{
+    margin-right: 60px;
+}
+.hero-social-item i{
+    color: black;
+    font-size: 26px;
+    opacity: 50%;
+    transition: 0.4s;
+}
+.hero-social-item i:hover{
+    opacity: 100%;
+}
+
+/* Hero CSS */
+
+/* Projects CSS */
+.projects-section{
+    background: url(../images/background/project-bg.png);
+}
+.project-heading h3{
+    font-weight: bold;
+    font-size: 32px;
+    word-spacing: 5px;
+    margin: 50px 100px;
+    padding-left: 200px;
+}
+.completed-project{
+    margin-bottom: 50px;
+}
+.projects-completed{
+    padding-bottom: 50px;
+}
+.project-number{
+    margin: 10px 0;
+    padding-left: 30px;
+}
+.p-num{
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+}
+.p-com{
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 12px;
+}
+/* Projects CSS */
+
+/* Services CSS */
+.services-section{
+    margin: 50px auto;
+}
+.serv-txt{
+    margin-left: 16px;
+}
+.service-name{
+    font-size: 32px;
+    font-weight: 800;
+    padding-right: 100px;
+}
+.service-desc{
+    font-weight: 500;
+}
+.serv-know{
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.serv-know:hover{
+    opacity: 75%;
+    color: #707070;
+}
+/* Services CSS */
+
+/* Portfolio CSS */
+.portfolio-section{
+    margin: 50px auto;
+}
+.portfolio-image-r2{
+    width: 100%;
+    padding-bottom: 44px;
+}
+.portfolio-image-r2 img{
+    width: 100%;
+}
+.portfolio-image-r1{
+    width: 100%;
+}
+.portfolio-image-r1 img{
+    width: 100%;
+}
+/* Portfolio CSS */
+
+/* Testimonial CSS */
+.carousel-indicators li{
+    background-color: #D2E603;
+}
+.carousel-indicators{
+    bottom: 90%;
+}
+.carousel-indicators .active {
+    opacity: 1;
+    border: 5px solid #D2E603;
+}
+.carousel-caption{padding: 0;margin: 0;left: 10%;top: 15%;right: 10%;}
+.slide-txt{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 2.75rem;
+}
+.client-img{
+    margin-top: 15px;
+}
+.client-name{
+    margin: 15px auto 5px;
+    font-weight: 600;
+    font-size: 30px;
+}
+/* Testimonial CSS */
+
+/* Video CSS */
+.video-section{
+    margin: 50px auto;
+}
+.video-content{
+    width: 100%;
+}
+.video-link{
+    width: 100%;
+    height: 100vh;
+}
+/* Video CSS */
+
+/* Team CSS */
+.team-section{
+    margin: 50px auto;
+}
+.team-content{
+    width: 100%;
+    margin: 100px 0px;
+}
+.team-content h5{
+    text-transform: uppercase;
+    font-size: 32px;
+    letter-spacing: 5px;
+    font-weight: 700;
+}
+.team-content h2{
+    font-size: 64px;
+    font-weight: 700;
+}
+.team-content p{
+    font-size: 30px;
+    padding: 0px 125px;
+    line-height: 2.5rem;
+    font-weight: 400;
+}
+.tdm{
+    margin: 0;
+}
+.tm-img{
+    width: 100%;
+}
+.tm-img img{
+    width: 100%;
+}
+.tm-det{
+    margin: 24px 60px;
+}
+.tm-det h4{
+    font-weight: 500;
+    font-size: 30px;
+}
+.tm-det p{
+    font-weight: 400;
+}
+.team-social-item{
+    font-size: 30px;
+}
+.team-social-item:hover{
+    opacity: 75%;
+    color: #00170C;
+}
+/* Team CSS */
+
+/* Contact CSS */
+.contact-section{
+    margin: 50px auto;
+    background-color: #D2E603;
+}
+.contact-content{
+    width: 100%;
+    margin: 180px 0;
+}
+.contact-content h5{
+    text-transform: uppercase;
+    font-size: 32px;
+    letter-spacing: 5px;
+    font-weight: 700;
+}
+.contact-content h2{
+    font-size: 64px;
+    font-weight: 700;
+}
+.contact-content p{
+    font-size: 30px;
+    padding: 0px 125px;
+    line-height: 2.5rem;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 30px;
+}
+.newsletter {
+    padding: 0;
+}
+.newsletter .content {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+.newsletter .content h2 {
+    color: #243c4f;
+    margin-bottom: 40px;
+}
+.newsletter .content .form-control {
+    height: 60px;
+    border: 4px solid #eff48e;
+    border-radius: 30px;
+    padding-left: 30px;
+    position: relative;
+    background: transparent;
+}
+.newsletter .content .form-control::placeholder{
+    color: white;
+}
+.newsletter .content .form-control:focus {
+    box-shadow:  none;
+    border: 4px solid #eff48e;
+    opacity: 75%;
+}
+.newsletter .content .btn {
+    min-height: 50px;
+    border-radius: 30px 30px;
+    position: absolute;
+    margin: 1px -150px;
+    background: #eff48e;
+    color: black;
+    text-transform: capitalize;
+    font-size: 21px;
+    font-weight: 700;
+    box-shadow: none;
+    padding: 14px 36px;
+    transition: 0.4s;
+}
+.newsletter .content .btn:hover{
+    opacity: 75%;
+}
+/* Contact CSS */
+
+/* Footer CSS */
+.footer-section{
+    margin: 120px auto;
+}
+.foot-top h2{
+    font-size: 32px;
+    font-weight: 800;
+}
+.foot-social-item{
+    font-weight: 500;
+    margin-right: 40px;
+}
+.foot-social-item:hover{
+    opacity: 50%;
+    color: inherit;
+}
+.foot-bot{
+    margin-top: 60px;
+}
+.foot-left h2{
+    font-size: 32px;
+    font-weight: 800;
+}
+.foot-left p{
+    margin: 0;
+}
+.foot-logo img{
+    width: 100%;
+}
+/* Footer CSS */
